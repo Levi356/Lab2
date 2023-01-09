@@ -19,7 +19,7 @@ public class MergeSort {
 
 		int k = left;
 		while (i < n1 && j < n2) {
-			if (leftArray[i] <= rightArray[j]) {
+			if (leftArray[i] > rightArray[j]) {
 				arr[k] = leftArray[i];
 				i++;
 			} else {
